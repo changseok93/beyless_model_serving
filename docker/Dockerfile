@@ -40,8 +40,8 @@ ENV TORCH_CUDA_ARCH_LIST="${TORCH_CUDA_ARCH_LIST}"
 RUN pip install --user -e detectron2_repo
 
 RUN cd ~/ && \
-	git clone https://github.com/changseok93/beyless_train_header
+	git clone https://github.com/changseok93/beyless_model_serving
 
 # Set a fixed model cache directory.
 ENV FVCORE_CACHE="/tmp"
-WORKDIR /home/appuser/beyless_train_header
+WORKDIR /home/appuser/beyless_model_serving
