@@ -4,7 +4,7 @@ ENV LC_ALL ko_KR.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get install -y \
 	python3-opencv ca-certificates python3-dev git wget sudo  \
-	cmake ninja-build \
+	cmake ninja-build vim \
 	htop tmux python3-pip && \
   rm -rf /var/lib/apt/lists/*
 RUN ln -sv /usr/bin/python3 /usr/bin/python

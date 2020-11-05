@@ -6,6 +6,6 @@ docker run --gpus all -it \
 	-p 6006:6006 \
 	-p 8888:8888 \
 	--shm-size=8gb --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-	--name=detectron2_beyless_header detectron2_beyless_deploy:v0.1
+	--name=detectron2_beyless_deploy detectron2_beyless_deploy:v0.1
 
 
