@@ -13,7 +13,6 @@ from detectron2.external_functions.category_disabler import category_disabler
 
 parser = argparse.ArgumentParser('detectron2 gRPC server')
 parser.add_argument("--model_path", help="path to model", default='/home/appuser/beyless_train_header/results/faster_rcnn_R_101_C4_3x.yaml_1604398136.6431131/config.yaml')
-
 parser.add_argument("--weight_path", help="path to weight parameter", default='/home/appuser/beyless_train_header/results/faster_rcnn_R_101_C4_3x.yaml_1604398136.6431131/model_0004999.pth')
 
 

@@ -12,7 +12,7 @@ from detectron2.engine import DefaultPredictor
 from detectron2.config import get_cfg
 from detectron2.utils.visualizer import Visualizer
 from detectron2.data import MetadataCatalog, DatasetCatalog
-sys.path.insert(1, '/home/appuser/beyless_train_header/dataset')
+sys.path.insert(1, '/home/appuser/beyless_model_serving/dataset')
 import register_custom_dataset as customDataset
 
 
